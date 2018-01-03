@@ -25,9 +25,9 @@ class App extends Component {
 
     return (
       <div>
-        <ToggleButton isToggled={state.isToggled} onClick={this.handleToggle} disabled={state.isButtonDisabled} />
+        <ToggleButton isToggled={state.isToggled} onClick={this.handleToggle} disabled={state.isButtonDisabled} data-test='toggle-button' />
         <div style={{ marginTop: 10 }}>
-          <input type='checkbox' checked={state.isButtonDisabled} onChange={e => this.setState({ isButtonDisabled: e.target.checked })} />
+          <input type='checkbox' checked={state.isButtonDisabled} onChange={e => this.setState({ isButtonDisabled: e.target.checked })} data-test='toggle-disabled-checkbox' />
           Disable Button
         </div>
       </div>
