@@ -1,0 +1,13 @@
+{
+  "verbose": true,
+  "moduleFileExtensions": [
+    "js",
+    "jsx",
+    "es6"
+  ],
+  "moduleDirectories": [
+    "node_modules"
+  ],
+  "rootDir": "../",
+  "setupTestFrameworkScriptFile": "./.config/enzyme-adapter-react-16.js"
+}
