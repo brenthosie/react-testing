@@ -9,7 +9,7 @@ const ToggleButton = props => (
     disabled={props.disabled}
     onClick={props.disabled ? null : props.onClick}
   >
-    {`I am ${props.isToggled ? '' : 'not'} toggled`}
+    {`I am${props.isToggled ? ' ' : ' not '}toggled`}
   </button>
 )
 
